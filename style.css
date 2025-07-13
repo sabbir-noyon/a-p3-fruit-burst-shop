@@ -1,167 +1,146 @@
-*{
-    font-family: 'Lato', sans-serif;
+* {
+	font-family: "Lato", sans-serif;
 }
-.font-lato{
-    font-family: 'Lato', sans-serif;
-}
-
-.nav-container{
-    max-width: 1440px;
-    margin: 0 auto;
-  border-radius: 600px;
-  padding:25px;
-  margin-top: 50px;
+.font-lato {
+	font-family: "Lato", sans-serif;
 }
 
-.fa-solid{
-    color: #928c8c;
-    font-size: 24px;
- 
+.nav-container {
+	max-width: 1440px;
+	margin: 0 auto;
+	border-radius: 600px;
+	padding: 25px;
+	margin-top: 50px;
 }
 
-.search-input{
-    position: relative;
-  
-    border-radius: 50px;
-    padding: 5px;
-    width: 400px;
-    height: 55px;
+.fa-solid {
+	color: #928c8c;
+	font-size: 24px;
 }
 
-.search-btn{
-    position: absolute;
-right: 286px;
-top:100px;
-
-
+.search-input {
+	position: relative;
+	border-radius: 50px;
+	padding: 5px;
+	width: 400px;
+	height: 55px;
 }
 
-::placeholder{
-    font-size: 15px;
-    color:rgba(18, 18, 18, 0.40);
-    font-size: 20px;
-    font-family: 400;
-    
+.search-btn {
+	position: absolute;
+	right: 286px;
+	top: 100px;
 }
 
-.caro-div{
-    max-width: 1440px;
-     border-radius:15px;
-     margin-left: 240px;
-     
-
-   /* height: 700px;*/
-
-   
-}
-/*
-.button{
-   background-color:  #F85559;
-   color: aqua;
-}
-*/
-
-.button{
-    font-size:20px;
-    font-weight: 700;
-    color: white;
-    background-color: #F85559;
-    text-transform: capitalize;
-    border: none;
+::placeholder {
+	font-size: 15px;
+	color: rgba(18, 18, 18, 0.4);
+	font-size: 20px;
+	font-family: 400;
 }
 
-.section-deal-day{
-    max-width:1440px;
+.caro-div {
+	max-width: 1440px;
+	border-radius: 15px;
+	margin-left: 240px;
+
+	/* height: 700px;*/
 }
 
-.card-container{
-    max-width: 1440px;
+.button {
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+	background-color: #f85559;
+	text-transform: capitalize;
+	border: none;
 }
 
-
-.card-1{
-    border:1px solid #12121210;
-
-    width: 342px;
-    height: 477px;
-    border-radius: 8px;
-    background: #FFF;
-
+.section-deal-day {
+	max-width: 1440px;
 }
 
-.card-2{
-    border:1px solid #12121210;
-    width: 342px;
-    height: 477px;
-    border-radius: 8px;
-    background: #FFF;
+.card-container {
+	max-width: 1440px;
 }
 
-.card-3{
-    border:1px solid #12121210;
-    width: 342px;
-    height: 477px;
-    border-radius: 8px;
-    background: #FFF;
+.card-1 {
+	border: 1px solid #12121210;
+	width: 342px;
+	height: 477px;
+	border-radius: 8px;
+	background: #fff;
 }
 
-.card-4{
-    border:1px solid #12121210;
-    width: 342px;
-    height: 477px;
-    border-radius: 8px;
-    background: #FFF;
+.card-2 {
+	border: 1px solid #12121210;
+	width: 342px;
+	height: 477px;
+	border-radius: 8px;
+	background: #fff;
 }
 
-.card-er-button .btn-card{  
-    width:135px;
-    height: 64px;
-border-radius: 5px;
-    background: #F85559;
-    color: #FFF;
-text-align: center;
-font-size: 18px;
-font-weight: 800;
-border: none;
+.card-3 {
+	border: 1px solid #12121210;
+	width: 342px;
+	height: 477px;
+	border-radius: 8px;
+	background: #fff;
 }
 
-.team-member-bg-image{
-
-    background-image: url(images/banner1.png);
-    
-    background-size:cover;
-    max-width: 1440px;
-    margin:0 auto;
-    height: 690px;}
-
-.container-plus-overlay{
-
-
-
-
-
-
-
-    background-color: rgba(0, 0, 0, 0.5);
-    background-size:cover;
-    max-width: 1440px;
-    margin:0 auto;
-    height: 690px;
-
+.card-4 {
+	border: 1px solid #12121210;
+	width: 342px;
+	height: 477px;
+	border-radius: 8px;
+	background: #fff;
 }
 
-.images-box-team-member{
-    max-width: 1028px;
+.card-er-button .btn-card {
+	width: 135px;
+	height: 64px;
+	border-radius: 5px;
+	background: #f85559;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 800;
+	border: none;
 }
 
-
-.bonun-card-container{
-    max-width: 1200px;
-    height: 250px;
-    position: relative;
-    background-color: #FFF;
-    border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.05);;
+.team-member-bg-image {
+	background-image: url(images/banner1.png);
+	background-size: cover;
+	max-width: 1440px;
+	margin: 0 auto;
+	height: 690px;
 }
 
+.container-plus-overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	background-size: cover;
+	max-width: 1440px;
+	margin: 0 auto;
+	height: 690px;
+}
 
+.images-box-team-member {
+	max-width: 1028px;
+}
+
+.bonun-card-container {
+	max-width: 1200px;
+	height: 250px;
+	position: relative;
+	background-color: #fff;
+	border-radius: 8px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (max-width: 576px) {
+	.team-member-bg-image {
+		max-width: 335px;
+		margin: 0 auto;
+		height: 1340px;
+	}
+}
